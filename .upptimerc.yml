@@ -11,6 +11,8 @@ sites:
     url: https://vqtolrqlqvfpzjsedjrw.supabase.co/functions/v1/smooth-task/?askdata=안녕!
   - name: HuggingFace Sayknow
     url: https://sayknowlab-sayknow-v1.hf.space
+  - name: Status Page
+    url: https://status.dani.ggm.kr/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
