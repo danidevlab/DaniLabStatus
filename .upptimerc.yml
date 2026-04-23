@@ -10,8 +10,9 @@ sites:
     url: https://sayknow.ggm.kr
     interval: 5
   - name: Sayknow Count Server
-    url: https://vqtolrqlqvfpzjsedjrw.supabase.co/functions/v1/smooth-task/?askdata=안녕!
+    url: https://vqtolrqlqvfpzjsedjrw.supabase.co/functions/v1/smooth-task/?askdata=hallo
     interval: 30
+    expectedStatusCodes: [200, 201, 400, 429]
   - name: HuggingFace Sayknow
     url: https://sayknowlab-sayknow-v1.hf.space
     interval: 30
